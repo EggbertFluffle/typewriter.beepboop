@@ -1,5 +1,5 @@
 {
-	"theme_name": "typewriter",
+	"name": "typewriter",
 	"sound_maps": [
 		{ "auto_command": "InsertCharPre", "key_map": { "mode": "i", "key_chord": "<BS>" }, "sounds": ["typewriter1.wav", "typewriter2.wav", "typewriter3.wav", "typewriter4.wav", "typewriter5.wav"] }
 	]

@@ -2,10 +2,10 @@ return {
 	name = "typewriter",
 	sound_maps = {
 		{
-			auto_command = "InsertCharPre",
-			key_map = {
+			autocommand = "InsertCharPre",
+			keymap = {
 				mode = "i",
-				key_chord = "<BS>"
+				keychord = "<BS>"
 			},
 			sounds = {
 				"typewriter1.wav",
@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			auto_command = "WinScrolled",
+			keymap = { mode = "n", keychord = "j" },
 			sounds = {
 				"scroll1.wav",
 				"scroll2.wav",
